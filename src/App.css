@@ -1,0 +1,39 @@
+body{
+  max-width: 1100px;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #01091e;
+  border: solid #e11661 ;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.header img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.lista{
+  display: flex;
+}
+
+.lista li{
+  list-style: none;
+  margin-right:25px;
+  padding: 10px;
+  font-weight: bold;  
+}
+
+.lista li:hover{
+  color: #06e6f7;
+}
