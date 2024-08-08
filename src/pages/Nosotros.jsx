@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Nosotros = () => {
   return (
-    <div>
-      <h1>Esto es Nosotros</h1>
+    <div className="wraper">
+      <section className="nosotros">
+        <div className="caja1">item1</div>
+        <div className="caja2">item2</div>
+      </section>
     </div>
-  )
-}
+  );
+};
 
-export default Nosotros
+export default Nosotros;

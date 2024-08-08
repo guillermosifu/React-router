@@ -5,6 +5,7 @@ body{
   box-sizing: border-box;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
 }
 
 .header{
@@ -28,12 +29,59 @@ body{
 }
 
 .lista li{
+  color: #fff;
   list-style: none;
   margin-right:25px;
   padding: 10px;
   font-weight: bold;  
 }
 
-.lista li:hover{
+.nav{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav:hover{
   color: #06e6f7;
+}
+
+.wraper{
+  margin-top: 40px;
+  height: 400px;
+  
+}
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home figure ,article{
+  border: solid;
+  width: 50%;
+}
+.nosotros{
+  border: solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nosotros .caja1,.caja2{
+  text-align: center;
+  width: 50%;
+  height: 400px;
+}
+
+
+
+
+@media (max-width:600px){
+  body{
+    font-size: 16px;
+  }
+   
+  .header img{
+    width: 50px;
+  }
 }
